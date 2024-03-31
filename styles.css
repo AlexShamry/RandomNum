@@ -1,0 +1,49 @@
+body{
+    font-family: "Montserrat SemiBold", sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background: #1f1f1f;
+    color: whitesmoke;
+    padding: 10px 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin:10px 0;
+    border: none;
+} .btn:hover{
+    background: #333333;
+  }
+#Text{
+    margin: 0;
+    font-size:55px;
+}
+#settings{
+    display: flex;
+    align-items: center;
+}
+.NumInput{
+    width: 100px;
+    margin-bottom: 30px;
+    background: #1f1f1f;
+    padding: 7px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+.property{
+    margin: 20px 15px 0 15px;
+    text-align: center;
+}
+#confirm{
+    background: #1f1f1f;
+    padding: 10px 10px;
+    font-size: 16px;
+} #confirm:hover{
+    background: #333333;
+  }
